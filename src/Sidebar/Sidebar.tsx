@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 
 export const SideBar = ({ items }: {
     items: {
         name: string;
         href: string;
-    }[];
+    }[]
 }) => <div>
         {
             items.map(items => (
